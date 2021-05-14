@@ -1,0 +1,7 @@
+userInput = str(input("Enter sentence: "))
+newUserInput = userInput.replace(",","")
+userInput = list(newUserInput.split(" "))
+userSet = set(userInput)
+userInput = list(userSet)
+userInput = " ".join(userInput)
+print(userInput)
